@@ -1,6 +1,6 @@
-# My Vite Project
+# Travel Journal
 
-A simple Vite‑based frontend project.
+**Travel Journal** is a simple Vite‑based frontend project.
 
 ## 📋 Description
 
