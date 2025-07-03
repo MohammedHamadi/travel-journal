@@ -4,11 +4,10 @@
 
 ## 📋 Description
 
-This repository contains a minimal Vite setup for building modern web applications. It includes:
+This repository contains a minimal Vite setup for the project. It includes:
 
 - A basic project structure created by Vite  
 - Source code in the `src/` folder  
-- An opinionated `.gitignore` to keep unwanted files out of version control  
 
 ---
 
