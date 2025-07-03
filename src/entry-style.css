@@ -1,0 +1,96 @@
+.entry {
+  width: 470px;
+  height: 168px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.entry > img {
+  display: block;
+  width: 125px;
+  height: 168px;
+  margin-right: 19px;
+  border-radius: 5px 5px;
+}
+
+.entry > .details > .infos > .location {
+  /* JAPAN */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+
+  color: #2b283a;
+}
+.entry > .details {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.entry > .details > .infos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.entry > .details > .infos > .location > span {
+  margin-left: 5px;
+}
+
+.entry > .details > .infos > a {
+  /* View on Google Maps */
+  margin-left: 19px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  /* identical to box height */
+  text-decoration-line: underline;
+
+  color: #918e9b;
+}
+
+.entry > .details > .title {
+  /* Mount Fuji */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #2b283a;
+  margin-top: 7px;
+  margin-bottom: 17px;
+}
+
+.entry > .details > .date {
+  /* 12 Jan, 2023 - 24 Jan, 2023 */
+  margin: 7px 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+
+  color: #2b283a;
+}
+
+.entry > .details > .content {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+
+  color: #2b283a;
+}
